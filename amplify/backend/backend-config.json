@@ -32,8 +32,12 @@
 		}
 	},
 	"analytics": {
-		"amplifyappKinesis": {
-			"service": "Kinesis",
+               "amplifyappKinesis": {
+                       "service": "Kinesis",
+			"providerPlugin": "awscloudformation"
+		},
+		"amplifyapp": {
+			"service": "Pinpoint",
 			"providerPlugin": "awscloudformation"
 		}
 	}
