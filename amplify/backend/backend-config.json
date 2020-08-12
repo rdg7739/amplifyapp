@@ -30,5 +30,11 @@
 			"service": "S3",
 			"providerPlugin": "awscloudformation"
 		}
+	},
+	"analytics": {
+		"amplifyappKinesis": {
+			"service": "Kinesis",
+			"providerPlugin": "awscloudformation"
+		}
 	}
 }
